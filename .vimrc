@@ -364,13 +364,21 @@ function! ZenkakuSpace()
   highlight ZenkakuSpace cterm=underline ctermfg=darkgrey gui=underline guifg=darkgrey
 endfunction
 
-if has('syntax')
-  augroup ZenkakuSpace
-    autocmd!
-    " ZenkakuSpaceをカラーファイルで設定するなら次の行は削除
-    autocmd ColorScheme       * call ZenkakuSpace()
-    " 全角スペースのハイライト指定
-    autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
-  augroup END
-  call ZenkakuSpace()
-endif
+"if has('syntax')
+"  augroup ZenkakuSpace
+"    autocmd!
+"    " ZenkakuSpaceをカラーファイルで設定するなら次の行は削除
+"    autocmd ColorScheme       * call ZenkakuSpace()
+"    " 全角スペースのハイライト指定
+"    autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
+"  augroup END
+"  call ZenkakuSpace()
+"endif
+
+" netrwは常にtree view
+let g:netrw_liststyle = 3
+
+
+set background=dark
+colorscheme hybrid
+set guifont=Ricty:h9
