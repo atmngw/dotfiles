@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/Atsuki/workspace/training/python'
-let g:netrw_dirhist_2='/Users/Atsuki/workspace/playground/Meteor'
-let g:netrw_dirhist_3='/Users/Atsuki/workspace/jikaku'
-let g:netrw_dirhist_4='/Users/Atsuki'
