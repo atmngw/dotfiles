@@ -50,6 +50,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'Shougo/unite.vim'
 Plugin 'powerline/powerline'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
