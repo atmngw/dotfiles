@@ -180,9 +180,6 @@ elif which putclip >/dev/null 2>&1 ; then
     alias -g C='| putclip'
 fi
 
-# jump
-alias cdtiha='cd /Users/stream611a-minagawa/workspace/tihatan/sensha-sever'
-
 ########################################
 # OS 別の設定
 case ${OSTYPE} in
